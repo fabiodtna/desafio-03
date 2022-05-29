@@ -3,7 +3,7 @@
     <div id="div-left">
       <div id="div-search">
         <input id="input-search" placeholder="Pesquisa" />
-        <button id="button-search">Search</button>
+        <button id="button-search" @click="search()">Search</button>
       </div>
 
       <div
@@ -12,6 +12,7 @@
           background-image: url(https://www.lojasolar.com.br/custom/content/themes/lojassolar/imagens/SEO/eletronicos-1.jpg);
           background-size: cover;
         "
+        @click="geteletronics()"
       >
         <h5 id="C-text">electronics</h5>
       </div>
@@ -21,6 +22,7 @@
           background-image: url(https://mamasuncut.com/wp-content/uploads/2020/08/1-1.jpg);
           background-size: cover;
         "
+        @click="getjewelery()"
       >
         <h3 id="C-text">jewelery</h3>
       </div>
@@ -30,6 +32,7 @@
           background-image: url(https://www.onlineshoppingguru.net/wp-content/uploads/2018/04/1-1.jpg);
           background-size: cover;
         "
+        @click="getmensclothing()"
       >
         <h3 id="C-text">men's clothing</h3>
       </div>
@@ -39,6 +42,7 @@
           background-image: url(https://i.pinimg.com/originals/62/c6/83/62c683f897eaec128e4a58c9f6709790.jpg);
           background-size: cover;
         "
+        @click="getwomensclothing()"
       >
         <h3 id="C-text">women's clothing</h3>
       </div>
@@ -86,6 +90,33 @@ export default {
   methods: {
     async Feeddata() {
       const res = await fetch("https://fakestoreapi.com/products");
+      const data = await res.json();
+      this.dados = data;
+    },
+
+    async geteletronics(){
+      const res = await fetch("https://fakestoreapi.com/products/category/electronics");
+      const data = await res.json();
+      this.dados = data;
+    },
+
+    async getjewelery(){
+      const res = await fetch("https://fakestoreapi.com/products/category/jewelery");
+      const data = await res.json();
+      this.dados = data;
+    },
+    async getmensclothing(){
+      const res = await fetch("https://fakestoreapi.com/products/category/men's%20clothing");
+      const data = await res.json();
+      this.dados = data;
+    },
+     async getwomensclothing(){
+      const res = await fetch("https://fakestoreapi.com/products/category/women's%20clothing");
+      const data = await res.json();
+      this.dados = data;
+    },
+    async search(){
+      const res = await fetch("https://fakestoreapi.com/products?sort=desc");
       const data = await res.json();
       this.dados = data;
     },

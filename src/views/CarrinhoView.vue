@@ -34,38 +34,6 @@
         </div>
       </div>
 
-       <div id="items_div">   
-        <img id="img" src="https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0205/users/72a94bfbbf20f96ec37192b72d0ab1fab5b3f3f6/i-img400x400-1621418971odivfk759499.jpg"/>
-        <div id="detalhep_div">
-            <div>
-              <p id="nome_item">Blusa de frio luis vitao</p>
-              <strong id="preco_item">$ 49,99</strong><br/>
-              <a id="correio_item">Envio Gratuito através da Entrega Padrão (Correios)</a>
-            </div>
-          <div id="detalhec_div">
-            <div><button>-</button><a id="txt_quant">1</a><button>+</button></div>
-            <button id="btn_item" >favoritar</button>
-            <button id="btn_item">excuir</button>
-          </div>
-        </div>
-      </div>
-
-       <div id="items_div">   
-        <img id="img" src="https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0205/users/72a94bfbbf20f96ec37192b72d0ab1fab5b3f3f6/i-img400x400-1621418971odivfk759499.jpg"/>
-        <div id="detalhep_div">
-            <div>
-              <p id="nome_item">Blusa de frio luis vitao</p>
-              <strong id="preco_item">$ 49,99</strong><br/>
-              <a id="correio_item">Envio Gratuito através da Entrega Padrão (Correios)</a>
-            </div>
-          <div id="detalhec_div">
-            <div><button>-</button><a id="txt_quant">1</a><button>+</button></div>
-            <button id="btn_item" >favoritar</button>
-            <button id="btn_item">excuir</button>
-          </div>
-        </div>
-      </div>
-        
 
       
     </div>
