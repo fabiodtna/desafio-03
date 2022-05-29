@@ -1,25 +1,25 @@
 <template>
   <div id="container">
-    <Header/>
-    <router-view/>
+    <Header />
+    <router-view />
     <Footer />
   </div>
 </template>
 
 <script>
-import Header from './components/header.vue'
-import Footer from './components/footer.vue'
+import Header from "./components/header.vue";
+import Footer from "./components/footer.vue";
 
 export default {
-  components:{
+  components: {
     Header,
-    Footer
-  }
-}
+    Footer,
+  },
+};
 </script>
 
 <style>
-#container{
+#container {
   width: 100%;
   height: 100%;
 }
