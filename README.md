@@ -33,7 +33,7 @@ O projeto teve como objetivos:
 - Vue.js  
 - JavaScript  
 - HTML5 & CSS3  
-- FakeStore API: [https://fakestoreapi.com/](https://fakestoreapi.com/)  
+- FakeStore API: https://fakestoreapi.com/  
 - Componentes Vue reutilizáveis  
 - Modais para detalhes de produtos  
 
@@ -41,7 +41,15 @@ O projeto teve como objetivos:
 
 ## 🖼 Capturas de Tela
 
+### 🏪 Página Principal da Loja
 
+![Loja Virtual 1](https://raw.githubusercontent.com/fabiodtna/desafio-03/refs/heads/master/loja1.jpeg)
+
+---
+
+### 🛍 Visualização da Loja
+
+![Loja Virtual 2](https://raw.githubusercontent.com/fabiodtna/desafio-03/refs/heads/master/loja.jpeg)
 
 ---
 
@@ -57,15 +65,13 @@ Com este desafio, foi possível reforçar habilidades em:
 
 ---
 
-👨‍💻 Projeto desenvolvido como **desafio prático** para testar habilidades em **Vue.js** e desenvolvimento front-end.# desafio_3
+👨‍💻 Projeto desenvolvido como **desafio prático** para testar habilidades em **Vue.js** e desenvolvimento front-end.
+
+# desafio_3
 
 ## Project setup
-```
+
 npm install
 npm run serve
 npm run build
 npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
