@@ -2,7 +2,12 @@
 
 ## 📱 Sobre o Projeto
 
-Este projeto foi desenvolvido como **desafio para uma vaga de desenvolvedor Vue.js**, com o objetivo de criar uma **loja virtual funcional**, focando apenas no **front-end**.  
+## ⏳ Contexto do Desenvolvimento
+
+Este projeto foi desenvolvido como parte de um desafio técnico para uma vaga de desenvolvedor Vue.js.  
+
+O desafio foi iniciado nos dois últimos dias do prazo, já com atraso, e desenvolvido em um período reduzido de tempo.  
+Mesmo com a limitação de prazo, o foco foi entregar uma aplicação funcional, organizada e seguindo boas práticas de front-end.
 
 O aplicativo permite:
 
