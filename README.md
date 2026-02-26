@@ -71,6 +71,10 @@ Com este desafio, foi possível reforçar habilidades em:
 
 ## Project setup
 
+
+## ⚙️ Como rodar o projeto
+
+```bash
 npm install
 npm run serve
 npm run build
